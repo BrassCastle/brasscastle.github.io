@@ -1,0 +1,128 @@
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-image: url("images/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  color: #333;
+}
+body > div {
+  min-height: 600px;
+  margin: 30px 0;
+  padding: 40px;
+  float: left;
+  background-color: rgba(255,255,255,0.92);
+}
+nav {
+  display: inline-block;
+  width: 25%;
+  float: left;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  line-height: 2;
+}
+nav li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+  text-align: center;
+}
+nav li a:hover {
+  color: #f15a29;
+}
+#main {
+  float: left;
+  width: 65%;
+  margin-left: 8%;
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+}
+#main h1 {
+  margin: 20px 0;
+  color: #f15a29;
+}
+#main p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 18px;
+  text-align: justify;
+}
+#main ul {
+  width: 90%;
+  list-style: none;
+}
+#main ul em {
+  font-style: normal;
+  font-weight: bold;
+  color: #f15a29;
+}
+#main ul ul {
+  padding-left: 40px;
+}
+#main li {
+  line-height: 1.8;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#mark {
+  width: 100px;
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  position: absolute;
+  right: 0;
+  bottom: -150px;
+}
+#logo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#intro {
+  margin-top: 30px;
+}
+#intro em {
+  color: #f15a29;
+  font-style: normal;
+}
+#intro p {
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.8;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+footer {
+  line-height: 8;
+  float: left;
+  opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+}
+#contact p {
+  margin-bottom: 0;
+}
+#contact a {
+  color: #f15a29;
+  text-decoration: none;
+}
