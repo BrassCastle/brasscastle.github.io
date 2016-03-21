@@ -48,7 +48,7 @@ nav li a {
   text-align: center;
 }
 nav li a:hover {
-  color: #f15a29;
+  color: #e3ba79;
 }
 #main {
   float: left;
@@ -60,7 +60,7 @@ nav li a:hover {
 }
 #main h1 {
   margin: 20px 0;
-  color: #f15a29;
+  color: #e3ba79;
 }
 #main p {
   margin-bottom: 20px;
@@ -75,7 +75,7 @@ nav li a:hover {
 #main ul em {
   font-style: normal;
   font-weight: bold;
-  color: #f15a29;
+  color: #e3ba79;
 }
 #main ul ul {
   padding-left: 40px;
@@ -102,7 +102,7 @@ nav li a:hover {
   margin-top: 30px;
 }
 #intro em {
-  color: #f15a29;
+  color: #e3ba79;
   font-style: normal;
 }
 #intro p {
@@ -123,6 +123,6 @@ footer {
   margin-bottom: 0;
 }
 #contact a {
-  color: #f15a29;
+  color: #e3ba79;
   text-decoration: none;
 }
